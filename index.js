@@ -4,9 +4,10 @@ function takeANumber(currentlineofpeople,newnum) {
   currentlineofpeople.push(`${newnum}`);
   return `Welcome, ${newnum}. You are number ${currentlineofpeople.length} in line.`;
   }
-
-  function newSystem(katzDeliLine) {
-    
+var i = 0;
+  function newSystem(katzDeliLine,newnum) {
+    newnum = i++ + 1;
+    return newnum
   }
 
   
