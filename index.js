@@ -1,7 +1,7 @@
-var katzDeliLine = []
-currentlineofpeople = katzDeliLine
+var katzDeliLine = [];
+currentlineofpeople = katzDeliLine;
 function takeANumber(currentlineofpeople,newname) {
-  currentlineofpeople.push(`${newname}`)
+  currentlineofpeople.push(`${newname}`);
   return `Welcome, ${newname}. You are number ${currentlineofpeople.length} in line.`;
   }
   
@@ -21,7 +21,7 @@ function nowServing(katzDeliLine) {
     if (currentlineofpeople.length === 0)
     return "The line is currently empty.";
     else
-    return ("The line is currently: 1. Bill, 2. Jane, 3. Ann")
+    return ("The line is currently: 1. Bill, 2. Jane, 3. Ann");
   }
   
   
