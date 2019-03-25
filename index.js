@@ -1,10 +1,13 @@
 var katzDeliLine = [];
 currentlineofpeople = katzDeliLine;
-function takeANumber(currentlineofpeople,newname) {
-  currentlineofpeople.push(`${newname}`);
-  return `Welcome, ${newname}. You are number ${currentlineofpeople.length} in line.`;
+function takeANumber(currentlineofpeople,newnum) {
+  currentlineofpeople.push(`${newnum}`);
+  return `Welcome, ${newnum}. You are number ${currentlineofpeople.length} in line.`;
   }
-  
+
+  function newSystem(katzDeliLine) {
+    
+  }
 
   
 
